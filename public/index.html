@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PerMon</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="stats">
+      <div>
+        <h1 id="usageCpu">0%</h1>
+        <sup>CPU usage</sup>
+      </div>
+      <div>
+        <h1 id="freeMem">0GB</h1>
+        <sup>Free memory</sup>
+      </div>
+    </div>
+
+    <div class="info">
+      <ul>
+        <li class="first" id="totalMem">0MB</li>
+        <sup>Total memory</sup>
+        <li id="version">version</li>
+        <sup>Kernel version</sup>
+        <li id="arch">x0</li>
+        <sup>Achitecture</sup>
+        <li id="platform">platform</li>
+        <sup>Operating System</sup>
+      </ul>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>

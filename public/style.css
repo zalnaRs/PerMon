@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'M PLUS 2', sans-serif;
+  color: white;
+}
+
+html,
+body {
+  height: 100vh;
+  background: rgb(23, 24, 25);
+  position: relative;
+}
+
+ul {
+  list-style: none;
+}
+
+ul sup {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-top: 8px;
+}
+
+.first {
+  margin-top: 0;
+}
+
+ul li img {
+  margin-right: 6px;
+}
+
+.info {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#usageCpu {
+  margin-right: 36px;
+}
