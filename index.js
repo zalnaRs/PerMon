@@ -41,6 +41,10 @@ setInterval(() => {
   io.emit('freeMemUpdate', Math.round(os2.freemem()) + 'MB');
 }, 1000);
 
-server.listen(3000, () => {
-  console.log('http://localhost:3000');
+server.listen(5000, () => {
+  console.log('PerMon');
+  console.log('Made by zalnaRs!');
+  console.log('https://github.com/zalanRs/PerFon');
+  console.log('Licensed under the MIT.');
+  console.log('http://' + require('ip').address() + ':5000');
 });
