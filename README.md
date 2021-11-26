@@ -1,7 +1,7 @@
 # PerMon
 ### https://zalnars.github.io/PerMon/
 
-View your system performance on an other device!
+Easily view your system performance on an other device!
 
 > Written in JavaScript (NodeJs).
 
